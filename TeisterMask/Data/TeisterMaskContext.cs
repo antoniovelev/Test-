@@ -5,6 +5,11 @@
 
     public class TeisterMaskContext : DbContext
     {
+        //kkkkkkkkkkkkkkkkkkk
+        //kkkkooocceeetttoo
+        //ddddddddddddddddkkkkkkkk
+        //kkkaaaaaaaakkk
+        //kkkkksssssssssss
         public TeisterMaskContext() { }
 
         public TeisterMaskContext(DbContextOptions options)

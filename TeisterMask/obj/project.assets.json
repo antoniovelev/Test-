@@ -4905,23 +4905,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Acer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Ef FinalExam\\01. Model Defition_Skeleton\\TeisterMask\\TeisterMask.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Desktop\\Ef FinalExam\\01. Model Defition_Skeleton\\Test-\\TeisterMask\\TeisterMask.csproj",
       "projectName": "TeisterMask",
-      "projectPath": "C:\\Users\\ACER\\Desktop\\Ef FinalExam\\01. Model Defition_Skeleton\\TeisterMask\\TeisterMask.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Desktop\\Ef FinalExam\\01. Model Defition_Skeleton\\TeisterMask\\obj\\",
+      "projectPath": "C:\\Users\\Acer\\Desktop\\Desktop\\Ef FinalExam\\01. Model Defition_Skeleton\\Test-\\TeisterMask\\TeisterMask.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Acer\\Desktop\\Desktop\\Ef FinalExam\\01. Model Defition_Skeleton\\Test-\\TeisterMask\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4958,6 +4954,7 @@
             "version": "[2.2.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -4968,10 +4965,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
