@@ -29,5 +29,7 @@ namespace TeisterMask.Data.Models
         public string Phone { get; set; }
 
         public ICollection<EmployeeTask> EmployeesTasks { get; set; }
+
+       // public decimal Salary { get; set; }
     }
 }
